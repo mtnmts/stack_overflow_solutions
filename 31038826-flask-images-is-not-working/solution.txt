@@ -1,0 +1,8 @@
+The Problem:
+
+The user wasn't able to resize images using Flask-Images
+
+Solution:
+
+Flask-Images was unable to resolve the image files, use of static directory will fix
+
