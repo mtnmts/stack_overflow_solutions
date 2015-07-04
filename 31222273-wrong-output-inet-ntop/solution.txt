@@ -1,0 +1,8 @@
+Problem:
+
+printf was printing strange data instead of what should be an IP address.
+
+Solution:
+
+OP did not initialize a char* with a appropriate size.
+
