@@ -28,7 +28,7 @@ int main(int argc, char *argv[]){
 
     struct sockaddr_in *sockin;  
     sockin = (struct sockaddr_in *)result->ai_addr;
-    char dst[100] = {0};
+    char dst[15] = {0};
     inet_ntop(AF_INET, &sockin->sin_addr, dst, sizeof(dst));
     printf("%s\n", dst);
     freeaddrinfo(result);
