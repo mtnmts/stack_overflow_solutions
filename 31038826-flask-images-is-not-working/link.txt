@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/31038826/flask-images-is-not-working
